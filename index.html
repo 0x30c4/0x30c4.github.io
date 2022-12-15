@@ -1,466 +1,60 @@
 <!DOCTYPE html>
-<html class="no-js">
-
-<head>
-  <!-- HTML Meta Tags -->
-  <title>Portfolio - Sanaf</title>
-  <meta name="description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Sanaf's Portfolio">
+    <meta name="stack" content="webpack, vue, vuex, developer, full stack, job">
+    <meta name="keywords" content="python developer, linux sysadmin, devops, go, django, backend developer, sanaf, 0x30c4, bangladesh">
+    <meta name="author" content="sanaf@0x30c4.dev">
+    <!-- HTML Meta Tags -->
+    <title>Portfolio - Sanaf</title>
+    <meta name="description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
   As a freelancer I've also made Discord and Reddit Bot, Python Selenium bot, Data Mining, Data Analysis and Web Scraping tools and program's (Mostly in Fiverr).">
-  
-  <!-- Google / Search Engine Tags -->
-  <meta itemprop="name" content="Portfolio - Sanaf">
-  <meta itemprop="description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Portfolio - Sanaf">
+    <meta itemprop="description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
   As a freelancer I've also made Discord and Reddit Bot, Python Selenium bot, Data Mining, Data Analysis and Web Scraping tools and program's (Mostly in Fiverr).">
-  <meta itemprop="image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
-  
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://0x30c4.dev">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Portfolio - Sanaf">
-  <meta property="og:description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
+    <meta itemprop="image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://0x30c4.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfolio - Sanaf">
+    <meta property="og:description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
   As a freelancer I've also made Discord and Reddit Bot, Python Selenium bot, Data Mining, Data Analysis and Web Scraping tools and program's (Mostly in Fiverr).">
-  <meta property="og:image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
-  
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Portfolio - Sanaf">
-  <meta name="twitter:description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
+    <meta property="og:image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio - Sanaf">
+    <meta name="twitter:description" content="I am a self taught programmer! I mostly code in Python and C. I have previous experience in making Django web application backend. So far my biggest project was Making Learning Management System and Admission Management System for a University with Django and Bootstrap. I also made some Cross-Platform CLI Networking tools and Desktop Applications.Most of them are Open Source.
   As a freelancer I've also made Discord and Reddit Bot, Python Selenium bot, Data Mining, Data Analysis and Web Scraping tools and program's (Mostly in Fiverr).">
-  <meta name="twitter:image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
-  
-  <!-- All Meta Tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width">
-
-  <!-- All Link tags -->
-  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-
-  <!-- All script tags -->
-  <script>document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-  <script src="js/vendor/jquery.hashchange.min.js"></script>
-  <script src="js/vendor/jquery.easytabs.min.js"></script>
-  <script src="js/main.js"></script>
-
-</head>
-
-<!-- Start of Body Tag -->
-
-<body class="bg-fixed bg-1">
-  <div class="main-container">
-    <div class="main wrapper clearfix">
-
-      <!-- Header Start -->
-      <header id="header">
-        <div id="logo">
-          <h6>
-            Sanaf 
-          </h6>
-          <h4>
-            
-          </h4>
-        </div>
-      </header>
-
-      <!-- Text "hello world" -->
-      <header id="header">
-        <div id="helloworld">
-          <h1>
-            Hack The Planet!!
-          </h1>
-        </div>
-      </header>
-
-      <!-- Main Tab Container -->
-      <div id="tab-container" class="tab-container">
-
-        <!-- Tab List -->
-        <ul class='etabs'>
-
-          <li class='tab' id="tab-about">
-            <a href="#about">
-              <i class="icon-user"></i>
-              <span>
-                About Me
-              </span>
-            </a>
-          </li>
-
-          <li class='tab'>
-            <a href="#resume">
-              <i class="icon-file-text"></i>
-              <span>
-                Skills
-              </span>
-            </a>
-          </li>
-
-          <!-- <li class='tab'>
-            <a href="#portfolio">
-              <i class="icon-heart"></i>
-              <span>
-                Projects
-              </span>
-            </a>
-          </li> -->
-
-          <li class='tab'>
-            <a href="#contact">
-              <i class="icon-envelope"></i>
-              <span>
-                Contact
-              </span>
-            </a>
-          </li>
-
-        </ul>
-        <!-- End Tab List -->
-
-        <!-- ----------------------------------------------------------------------------------- -->
-        <!-- Code for differents Tabs strat from here. -->
-        <div id="tab-data-wrap">
-
-          <!-- About Tab Data -->
-          <div id="about">
-            <section class="clearfix">
-              <div class="g2">
-                <div class="photo">
-                  <img src="./images/my.jpg" alt="Your alt text">
-                </div>
-                <div class="info">
-                  <h2>
-                    <p></p>
-                    Sanaf
-                  </h2>
-                  <h4>
-                    <b>Heyy!!</b><br><br>
-                    Looking for someone to hire ??
-                  </h4>
-                  </p>
-                </div>
-              </div>
-
-              <div class="g1">
-                <div class="main-links sidebar">
-                  <ul>
-                    <li>
-                      <a href="#resume">
-                        View My Skills
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#portfolio">
-                        View My Projects
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#contact">
-                        Hire me for your next project
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="break">
-              </div>
-              <div class="contact-info">
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-envelope"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="mailto:sanaf@0x30c4.dev">
-                          sanaf@0x30c4.dev
-                        </a>
-                      </h3>
-                      <p>
-                        Email Address
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-facebook"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="https://www.youtube.com/channel/UCWsnKepQg51pFyXNTiMm_zw">
-                          Youtube
-                        </a>
-                      </h3>
-                      <p>
-                        Youtube Channel
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="g1">
-                  <div class="item-box clearfix">
-                    <i class="icon-twitter"></i>
-                    <div class="item-data">
-                      <h3>
-                        <a href="http://twitter.com/0x30c4">
-                          Twitter
-                        </a>
-                      </h3>
-                      <p>
-                        Twitter Handle
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <!-- End About Tab Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- skills Tab Data -->
-          <div id="resume">
-            <section class="clearfix">
-              <div class="g2">
-                <h3>
-                  Programming
-                </h3>
-                <div class="meter emerald">
-                  <span style="width: 98%">
-                    <span>
-                      Python 
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 95%">
-                    <span>
-                      C
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 90%">
-                    <span>
-                      PHP
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 95%">
-                    <span>
-                      SQL
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 90%">
-                    <span>
-                      Java
-                    </span>
-                  </span>
-                </div>
-                <div class="break"></div>
-              </div>
-
-              <div class="g1">
-                <h3>
-                  Skills
-                </h3>
-                <div class="meter emerald">
-                  <span style="width: 95%">
-                    <span>
-                      Linux Administration
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 94%">
-                    <span>
-                      Bash Scripting 
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 90%">
-                    <span>
-                      Networking
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 93%">
-                    <span>
-                      Web Automation
-                    </span>
-                  </span>
-                </div>
-                <div class="meter emerald">
-                  <span style="width: 85%">
-                    <span>
-                      WordPress
-                    </span>
-                  </span>
-                </div>
-              </div>
-
-              <div class="g2">
-                <h3>
-                  Hobbies
-                </h3>
-                <span class="label label-info">Hardware Reverse Engineering</span>
-                <span class="label label-info">Playing CTF's</span>
-                <span class="label label-info">Playing Guitter</span>
-                <span class="label label-info">Learning new staffs</span>
-              </div>
-            </section>
-          </div>
-
-          <!-- End skills Tab Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- Projects Tab Data -->
-          <!-- <div id="portfolio">
-            <section class="clearfix">
-              <div class="project-section">
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container"onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-                <div class="project-container">
-                  <div class="project-img-container" onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="./images/floor.jpg" alt="project image">
-                  </div>
-                  <p class="project-title">Project Title</p>
-                </div>
-              </div>
-              <div id="modal-wrapper" class="modal">
-
-                <form class="modal-content animate">
-
-                  <div class="imgcontainer">
-                    <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close" title="Close PopUp">&times;</span>
-                    <img src="images/floor.jpg" alt="project" class="avatar">
-                    <h1 class="project_details" style="text-align:center">Project Details</h1>
-                  </div>
-
-                  <div class="container">
-                    <input type="text" placeholder="Project Name" name="uname" readonly>
-                    <textarea class="project_description" rows="3" placeholder="Project Description" readonly></textarea>
-                    <input type="url" placeholder="Project Link"readonly>
-                    <input type="text" placeholder="Languages used" readonly>
-                    <button class="project_submit" type="submit">Submit</button>
-                  </div>
-
-                </form>
-
-              </div>
-            </section>
-          </div> -->
-          <!-- End Projects tab -->
-          <!-- ----------------------------------------------------------------------------------- -->
-          <!-- Contact Tab Data -->
-          <div id="contact">
-            <section class="clearfix">
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-globe"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      Address
-                    </h4>
-                    <p>
-                      Bangladesh
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-phone"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      E-mail
-                    </h4>
-                    <p>
-                     sanaf@0x30c4.dev
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="g1">
-                <div class="sny-icon-box">
-                  <div class="sny-icon">
-                    <i class="icon-user"></i>
-                  </div>
-                  <div class="sny-icon-content">
-                    <h4>
-                      About Me
-                    </h4>
-                    <p>
-                      Computer Enthusiast
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="break"></div>
-            </section>
-          </div>
-          <!-- End Contact Data -->
-          <!-- ----------------------------------------------------------------------------------- -->
-        </div>
-      </div>
-</body>
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/0x30c4/0x30c4.github.io/main/images/Untitled.png">
+    <title>0x30c4.dev</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.1.45/css/materialdesignicons.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="/css/app.9b47dd3c.css" rel="preload" as="style">
+    <link href="/js/app.117fde65.js" rel="preload" as="script">
+    <link href="/js/chunk-vendors.548fc5be.js" rel="preload" as="script">
+    <link href="/css/app.9b47dd3c.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico">
+    <meta name="theme-color" content="#4DBA87">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="0x30c4.dev">
+    <meta name="msapplication-TileImage" content="/img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but 0x30c4.dev doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="/js/chunk-vendors.548fc5be.js"></script>
+    <script src="/js/app.117fde65.js"></script>
+  </body>
 </html>
